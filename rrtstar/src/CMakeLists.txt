@@ -16,3 +16,4 @@ pods_use_pkg_config_packages(rrtstar
     lcmtypes)
 
 pods_install_executables(rrtstar)
+target_link_libraries(rrtstar -llcm)
